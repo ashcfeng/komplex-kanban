@@ -1,0 +1,35 @@
+project(Complex)
+add_library(Complex STATIC
+../komplexkanbanv3-team24/lib/abs.cpp     
+../komplexkanbanv3-team24/lib/cos.cpp  
+../komplexkanbanv3-team24/lib/log.cpp     
+../komplexkanbanv3-team24/lib/overload-=.cpp   
+../komplexkanbanv3-team24/lib/sin.cpp
+../komplexkanbanv3-team24/lib/acos.cpp    
+../komplexkanbanv3-team24/lib/cosh.cpp ../komplexkanbanv3-team24/lib/norm.cpp    
+../komplexkanbanv3-team24/lib/overloaddivide=.cpp 
+../komplexkanbanv3-team24/lib/sinh.cpp
+../komplexkanbanv3-team24/lib/Adivison.cpp 
+../komplexkanbanv3-team24/lib/!=.cpp 
+../komplexkanbanv3-team24/lib/overload*.cpp 
+../komplexkanbanv3-team24/lib/overloadin.cpp   
+../komplexkanbanv3-team24/lib/sqrt.cpp
+../komplexkanbanv3-team24/lib/arg.cpp       
+../komplexkanbanv3-team24/lib/==.cpp    
+../komplexkanbanv3-team24/lib/overload*=.cpp   
+../komplexkanbanv3-team24/lib/overloadout.cpp        
+../komplexkanbanv3-team24/lib/tan.cpp
+../komplexkanbanv3-team24/lib/asin.cpp       
+../komplexkanbanv3-team24/lib/exp.cpp     
+../komplexkanbanv3-team24/lib/overload+.cpp     
+../komplexkanbanv3-team24/lib/polar.cpp          
+../komplexkanbanv3-team24/lib/tanh.cpp
+../komplexkanbanv3-team24/lib/atan.cpp       
+../komplexkanbanv3-team24/lib/imag.cpp   
+../komplexkanbanv3-team24/lib/overload+=.cpp   
+../komplexkanbanv3-team24/lib/pow.cpp
+../komplexkanbanv3-team24/lib/conj.cpp 
+../komplexkanbanv3-team24/lib/log10.cpp   
+../komplexkanbanv3-team24/lib/overload-.cpp     
+../komplexkanbanv3-team24/lib/real.cpp
+)
